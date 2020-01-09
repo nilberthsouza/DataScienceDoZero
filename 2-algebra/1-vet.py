@@ -33,7 +33,6 @@ np.sum(np.array([1,2,3])*np.array([2,3,4]))
 #55
 
 #magnitude do vetor
-from math import sqrt
 np.sqrt((np.array([1,2,3,4,5])**2).sum())
 
 #distancia de 2 dotores
