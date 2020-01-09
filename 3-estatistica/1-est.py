@@ -16,10 +16,14 @@ num_friends.sort()
 num_friends.mean()
 
 #mediana
-
+np.median(num_friend)
 
 #moda
-
+np.bincount(num_friends).argmax()
+#or 
+from collection import Counter
+b =  Counter(num_friends)
+b.most_common(1)
 
 #dispersão ou amplitude
 num_friends.max() - num_friends.mix()
