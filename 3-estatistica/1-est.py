@@ -31,6 +31,10 @@ num_friends.max() - num_friends.mix()
 #variancia
 variace = np.sum(np.square([x_list-myfriends.mean() for x_list in num_friends]))
 
+#or 
+np.var(num_friends)
+
+
 #standart deviantion
 np.sqrt(np.sum(np.square([x_list-myfriends.mean() for x_list in num_friends])))
 #or
@@ -43,5 +47,6 @@ b = np.array([2,4,6,8,10,12,14,18])
 
 np.sum(np.array([x_a - a.mean() for x_a in a]) * np.array([x_b - b.mean() for x_b in b]))
 
+#
 
-
+np.cov(a,b)
